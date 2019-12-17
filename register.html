@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/register.css" />
+</head>
+
+<body>
+	<div class="banner">
+		<div class="container" style="width: 71%;">
+			<div class="b_left">
+				<p>
+					<span><strong>音乐账号</strong></span>
+					<span>|</span>
+					<span>注册</span>
+				</p>
+			</div>
+
+			<div class="b_right">
+				<span>我已有音乐账号</span>
+				<span><a href="land.html">立即登录</a></span>
+				<span><a href="register.html">注册</a></span>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container" style="  border: 1px solid #CCCCCC; margin: 50px auto;padding: 50px;">
+		<div class="content">
+			<form action="register.php" method="get" onsubmit="return false">
+				<p><span>手机号</span><input type="text" maxlength="11" name="username" placeholder="用于登陆和找回密码" /><a
+						class="icon" style="text-decoration: none;">格式错误</a></p>
+				<p><span>密码</span><input type="password" maxlength="16" name="password" placeholder="6-16位密码" /><a
+						style="text-decoration: none;" class="pass_img"></a><a class="icon"
+						style="text-decoration: none;">格式错误</a></p>
+				<p><span>图片验证码</span><input type="text" maxlength="4" name="user_img_yzm" placeholder="图片验证码" /><img
+						class="change_img" src="img/imgYZ/download0.png"><a class="change">换一张</a><a class="icon"
+						style="text-decoration: none;">验证错误 ，请重新输入</a></p>
+				<p><span>验证码</span><input type="text" maxlength="6" name="user_yzm" placeholder="验证码" /><input
+						type="button" class="btn_yzm" value="获取短信验证码" /><a class="icon"
+						style="text-decoration: none;">验证错误 ，请重新输入</a></p>
+				<p style="margin-left: 110px;margin-top:-16px;">
+					<input type="checkbox" name="user_box" style="top: 2px;position: relative;" />
+					<span class="che_span">阅读并同意</span>
+					<a href="#" style="margin-left: 0px;">太合用户注册协议</a>
+				</p>
+				<p style="margin-top: -30px;"><input type="submit" value="注册" /></p>
+			</form>
+		</div>
+	</div>
+
+
+	<div class="bottom">
+		<p>
+			<a>关于音乐</a>
+			<a>|</a>
+			<a>自创音乐</a>
+			<a>|</a>
+			<a>音乐人</a>
+			<a>|</a>
+			<a>合音量</a>
+			<a>|</a>
+			<a>T榜</a>
+			<a>|</a>
+			<a>LavaRadio</a>
+			<a>|</a>
+			<a>音乐商城</a>
+		</p>
+		<p>太合版权所有 © 2009—2019 京ICP备09035905号</p>
+	</div>
+
+</body>
+
+<script src="script/register.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

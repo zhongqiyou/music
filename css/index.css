@@ -1,0 +1,481 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 80% !important;
+}
+
+.text-style {
+    border: none;
+    width: 300px !important;
+}
+
+.color {
+    width: 100px;
+    font-weight: bold;
+}
+
+.banner {
+    background: #cccccc;
+    margin: 2px 0 2px 0;
+    /* height:36px; */
+}
+
+.banner ul {
+    color: #ffffff;
+    width: 700px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.banner ul::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.bannerLi {
+    position: relative;
+    /* overflow: hidden; */
+    height: 36px;
+    float: left;
+    width: 100px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.bannerLi strong {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+}
+
+.bannerLi ol {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    margin-bottom: 0;
+    transition: all 1s;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 8px 8px;
+}
+
+.bannerLi ol li {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.bannerLi:hover ol {
+    height: 160px;
+}
+
+.bannerLi:hover {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.bannerLi ol li:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.bfz6 {
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.bfz6 i,
+.bfz6-r i {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+}
+
+.banner6 {
+    margin: 20px auto;
+}
+
+.nav {
+    width: 100%;
+}
+
+.oneUl {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.oneUl li {
+    text-align: center;
+    width: 49%;
+    margin: 2px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.oneUl li img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.oneUl li img:hover {
+    transform: scale(1.2);
+}
+
+.oneUl li p {
+    width: 100%;
+    background: #000000;
+    opacity: 0.8;
+    margin: 0 auto;
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+}
+
+.oneUl::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bfz6-r {
+    position: relative;
+    width: 38%;
+    float: right
+}
+
+.bfz6-r p {
+    margin-bottom: 0;
+    color: blueviolet;
+    /* font-weight: bold; */
+}
+
+.top img {
+    cursor: pointer;
+}
+
+.navh {
+    cursor: pointer;
+}
+
+.navh:hover {
+    background: lightblue;
+}
+
+.auto {
+    text-align: center;
+    /* background: #000000; */
+}
+
+.banner6::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.demo {
+    list-style: none;
+}
+
+.demo li {
+    width: 24%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.demo li i {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 75%;
+    background: url("../img/视频.png") no-repeat rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    background-size: 30%;
+    background-position: center;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.demo li:hover i {
+    opacity: 1;
+}
+
+.demo li img {
+    width: 100%;
+    height: 75%;
+}
+
+.demo li h6 {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.demo li h6:hover {
+    color: cadetblue !important;
+}
+
+.demo li p {
+    color: #666666;
+    margin-bottom: 0;
+    line-height: 10px;
+}
+
+.btnR {
+    /* background: #000000; */
+    right: -46px;
+    /* top: 50px; */
+    width: 50px;
+    height: 150px;
+}
+
+.btnL {
+    /* background: #000000; */
+    width: 50px;
+    height: 150px;
+    left: -46px;
+}
+
+.btnL:hover {
+    background: #000000;
+}
+
+.inner:hover+.btnL {
+    background: #000000;
+}
+
+.btnR:hover {
+    background: #000000;
+}
+
+.inner:hover+.btnL+.btnR {
+    background: #000000;
+    border: 1px solid #000000;
+}
+
+.bottom ul {
+    margin-top: 15px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.bottom ul::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.bottom ul li {
+    float: left;
+    width: 33%;
+    height: 140px;
+}
+
+.bottom ul li h4 {
+    color: #ffffff;
+    font-family: "宋体";
+}
+
+.bottom ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.bottom div::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.bottom div {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.bottom dd {
+    float: left;
+    margin-left: 37px;
+}
+
+.bottom dd p {
+    color: darkgray;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bottom dd p:hover {
+    text-decoration: underline;
+
+}
+
+.bottom ul li p a {
+    color: darkgray;
+    font-size: 14px;
+}
+
+.bottom p {
+    margin-bottom: 8px;
+}
+
+.img {
+    position: fixed;
+    right: 4%;
+    bottom: 10%;
+    z-index: 9;
+    display: none;
+}
+
+.img p {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 25px;
+    border-radius: 22.5px;
+}
+
+
+.img .imgP1 {
+    background: url("../img/download2.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.img .imgP1:hover {
+    background: url("../img/download2.png") no-repeat #31c27c;
+    background-size: 100%;
+    background-position: center;
+}
+
+.img .imgP2 {
+    background: url("../img/download1.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.img .imgP2:hover {
+    background: url("../img/download1.png") no-repeat #31c27c;
+    background-size: 100%;
+    background-position: 2px 2px;
+}
+
+.img .imgP3 {
+    background: url("../img/download3.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.img .imgP3:hover {
+    background: url("../img/download3.png") no-repeat #31c27c;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.img img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.backgroundImg {
+    padding: 10px;
+    width: 67px;
+    height: 55px;
+    background: url("../img/下载.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    cursor: pointer;
+}
+
+.backgroundImg:hover {
+    background: url("../img/下载 (1).png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.large {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.large p {
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+}
+
+.large i {
+    /* opacity: 0.3; */
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    margin-top: -200px;
+    background: url("../img/加载动图.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+}
+
+.progress_width {
+    width: 500px;
+}
+
+.music_text:hover {
+    color: cornflowerblue !important;
+}
+
+.music_text {
+    cursor: pointer;
+}
+
+.jsonp_ul {
+    list-style: none;
+    position: absolute;
+    width: 300px;
+    top: 36px;
+    left: 0;
+    z-index: 99;
+    border-radius: 0 0 10px 10px;
+    padding: 15px 0 15px 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: none;
+
+}
+
+.jsonp_ul li {
+    padding: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.jsonp_ul li:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.jsonp_ul li a {
+    text-decoration: none;
+    color: #999999;
+}

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: whitesmoke;
+    padding: 5px 0;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    height: auto;
+    line-height: 50px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .b_left {
+    width: 30%;
+    height: 50px;
+    background: url(../img/small_logo.png) no-repeat;
+    background-position: 0 10px;
+    float: left;
+}
+
+.b_left p {
+    width: 160px;
+    height: 100%;
+    margin-left: 80px;
+}
+
+.b_left strong {
+    font-size: 20px;
+    color: #666;
+}
+
+.b_left span {
+    color: darkgray;
+    font-size: 18px;
+    margin-left: 5px;
+    font-family: "黑体";
+}
+
+.container .b_right {
+    width: 23%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+.b_right span {
+    color: darkgray;
+    margin-left: 8px;
+}
+
+.b_right span a {
+
+    color: cornflowerblue;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    background: url(../img/音乐世界2.jpg) no-repeat;
+    background-size: 500px 500px;
+    background-position: 600px -150px;
+}
+
+.content form input[type=text],
+.content form input[type=password],
+.content form input[type=submit] {
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.content form input[type=button] {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: cornflowerblue;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.content form input[type=submit] {
+    margin-left: 110px;
+    background: #DC143C;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #CCCCCC;
+    text-indent: 10px
+}
+
+.content form p {
+    margin: 20px 0;
+}
+
+.content form p img {
+    margin: -10px;
+    margin-left: 10px;
+}
+
+.content form p a {
+    margin-left: 20px;
+    color: #DC143C;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.content form .che_span {
+    font-size: 13px;
+    width: 65px;
+}
+
+.content form p a:hover {
+    text-decoration: underline;
+}
+
+.content form p span {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: #666666;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #cccccc;
+    line-height: 30px;
+    background: whitesmoke;
+    padding: 99px;
+
+
+}
+
+.change {
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    display: block;
+    text-indent: 18px;
+    height: 20px;
+    text-align: right;
+    background: url(../img/错误.png) no-repeat;
+    background-size: 13px;
+    background-position: 0 4px;
+    line-height: 20px;
+    margin-left: 110px !important;
+    font-size: 12px !important;
+    display: none;
+}
+
+.icon_js {
+    background: url(../img/正确.png) no-repeat;
+    background-size: 32px;
+    background-position: -6px -5px;
+    color: limegreen !important;
+}
+
+.pass_img {
+    width: 150px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url(../img/strong.jpg);
+    background-size: 150px 100px;
+    background-position-y: 100px;
+    margin-left: 10px !important;
+    display: none;
+}
